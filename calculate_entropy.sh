@@ -12,7 +12,7 @@ CMSES="drupal wordpress joomla"
 
 # Grab CMS data
 for c in $CMSES; do
-    sandfly-entropyscan/sandfly-entropyscan -dir $CMS_DIR/$C -csv > $c.csv
+    sandfly-entropyscan/sandfly-entropyscan -dir $CMS_DIR/$c -csv > $c.csv
 done
 
 # Grab the webshell data
