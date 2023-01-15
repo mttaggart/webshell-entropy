@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "webshell-entropy"
+version = "0.1.0"
+description = ""
+authors = ["Michael Taggart <mtaggart@taggart-tech.com>"]
+readme = "README.md"
+packages = [{include = "webshell_entropy"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.0.0"
+jupyterlab = "^3.5.2"
+pandas = "^1.5.2"
+plotly = "^5.12.0"
+scikit-learn = "^1.2.0"
+matplotlib = "^3.6.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
